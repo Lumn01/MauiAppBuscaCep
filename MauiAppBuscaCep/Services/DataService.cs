@@ -88,7 +88,7 @@ namespace MauiAppBuscaCep.Services
             return arr_logradouros;
         }
 
-        public static async Task<List<Cep>> GetCepsByLogradouro(string Logradouro)
+        public static async Task<List<Cep>> GetCepsByLogradouro(string logradouro)
         {
             List<Cep> arr_ceps = new List<Cep>();
 
