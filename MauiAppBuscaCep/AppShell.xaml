@@ -7,9 +7,4 @@
     Shell.FlyoutBehavior="Disabled"
     Title="MauiAppBuscaCep">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
 </Shell>
